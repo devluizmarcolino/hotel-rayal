@@ -407,6 +407,56 @@ nav {
   color: var(--texto-claro);
 }
 
+.explore:is(.section-subheader, .section-header){
+  text-align: center;
+  margin-inline: auto;
+}
+
+.explore-bg {
+  margin-top: 4rem;
+  padding-block: 3rem;
+  display: grid;
+  grid-template-columns:
+  minmax(1rem, 1fr)
+  minmax(0, var(--max-width))
+  minmax(1rem, 1fr);
+  background-image: url(../imgs/explore.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.explore-content {
+  grid-column: 2/3;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: var(--branco);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.explore-content p {
+  margin-bottom: 0.5rem;
+}
+
+.explore-content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--texto-escuro);
+}
+
+.explore-content .btn {
+  color: var(--rosa);
+  background-color: var(--branco);
+  border: 1px solid var(--rosa)
+}
+
+.explore-content .btn:hover {
+  color: var(--branco);
+  background-color: var(--rosa);
+}
 
 
 @media (width > 576px) {
