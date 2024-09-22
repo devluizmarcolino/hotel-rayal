@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <strong>🚀 Este projeto é um modelo de HTML básico para um website de um hotel. Ele contém as estruturas HTML e CSS para criar um layout inicial para um site.  📚</strong>
+  <strong>🚀 Este projeto é um modelo de HTML básico para um website de um hotel. Ele contém as estruturas HTML, CSS e JavaScript para criar um layout inicial para um site.  📚</strong>
 </div>
 
 <div align="center">
