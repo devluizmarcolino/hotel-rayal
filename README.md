@@ -33,6 +33,8 @@ Seção de informações sobre os quartos: Apresenta detalhes completos sobre ca
 Seção de serviços: Destaca os principais serviços oferecidos pelo hotel.
 Seção de contato: Facilita o contato com o hotel através de email e redes sociais.
 
+<img src="./assets/imgs/@devluizmarcolio.png" alt="imagem do site em diferentes dispositivos" width="500px">
+
 ## 💻 Tecnologias
 
 - HTML5
