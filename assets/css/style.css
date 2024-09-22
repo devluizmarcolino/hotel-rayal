@@ -318,6 +318,69 @@ nav {
   color: var(--texto-escuro);
 }
 
+.service {
+  background-image: url(../imgs/service.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service-container {
+  padding-block: 0;
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+}
+
+.service-content {
+  grid-column: 1/3;
+  padding: 2rem 4rem;
+  background-color: var(--branco);
+}
+
+.service-list {
+  list-style: none;
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.service-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--texto-escuro);
+}
+
+.service-list span {
+  padding: 5px 12px;
+  font-size: 1.75rem;
+  color: var(--texto-escuro);
+  background-color: var(--texto-claro);
+  border-radius: 100%;
+}
+
+.service-list li:nth-child(1) span {
+  color: #60a5fa;
+  background-color: #dbeafe;
+}
+
+.service-list li:nth-child(2) span {
+  color: #f472b6;
+  background-color: #fce7f3;
+}
+
+.service-list li:nth-child(3) span {
+  color: #c084fc;
+  background-color: #f3e8ff;
+}
+
+.service-list li:nth-child(4) span {
+  color: #fb7185;
+  background-color: #ffe4e6;
+}
+
 @media (width > 576px) {
   .room-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -379,6 +442,10 @@ nav {
   .room-grid {
   grid-template-columns: repeat(3, 1fr);
 }
+.service-content {
+  grid-column: 2/3;
+}
+
 }
 
 @media (width > 1024px) {
