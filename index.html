@@ -7,11 +7,38 @@
   <meta name="description" content="Página web feita com HTML, CSS e Js">
 
   <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
   <title>Rayal Hotel</title>
 </head>
 <body>
-  
+  <header class="header">
+    <nav>
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="#"><img src="./assets/imgs/logo.png" alt="Logo Rayal Hotel"></a>
+        </div>
+        <div class="nav-menu-btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#service">Serviços</a></li>
+        <li><a href="#explore">Explorar</a></li>
+        <li><a href="#contact">Contatos</a></li>
+      </ul>
+      <button class="nav-btn btn">Reserve agora</button>
+    </nav>
 
+    <div class="section-container header-container" id="home">
+      <p>Simples - Único - Amigável</p>
+      <h1>Sinta-se em casa <br> Em nosso <span>Hotel</span>.</h1>
+    </div>
+  </header>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="./assets/js/app.js"></script>
 </body>
 </html>
