@@ -31,3 +31,33 @@ ScrollReveal().reveal(".header-container h1", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal(".about-img img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".about-content .section-subheader", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".about-content .section-header", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".about-content .section-description", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".about-btn", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
+
+ScrollReveal().reveal(".room-card", {
+  ...scrollRevealOption,
+  interval: 500,
+});

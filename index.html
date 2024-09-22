@@ -38,34 +38,109 @@
     </div>
   </header>
 
-  <section class="section-container booking-container">
-    <form action="#" class="booking-form">
-      <div class="input-group">
-        <span><i class="ri-calendar-todo-fill"></i></span>
-        <div>
-          <label for="check-in">CHECK-IN</label>
-          <input type="text" placeholder="Check-In">
+  <main>
+    <section class="section-container booking-container">
+      <form action="#" class="booking-form">
+        <div class="input-group">
+          <span><i class="ri-calendar-todo-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="text" placeholder="Check-In">
+          </div>
+        </div>
+        <div class="input-group">
+          <span><i class="ri-calendar-todo-fill"></i></span>
+          <div>
+            <label for="check-ou">CHECK-OUT</label>
+            <input type="text" placeholder="Check-Out">
+          </div>
+        </div>
+        <div class="input-group">
+          <span><i class="ri-user-3-line"></i></span>
+          <div>
+            <label for="guest">Hóspede</label>
+            <input type="text" placeholder="Hóspede">
+          </div>
+        </div>
+        <div class="input-group input-btn">
+          <button class="btn">Confira</button>
+        </div>
+      </form>
+    </section>
+  
+    <section class="section-container about-container" id="about">
+      <div class="about-img">
+        <img src="./assets/imgs/about.jpg" alt="Imagem do sobre">
+      </div>
+  
+      <div class="about-content">
+        <p class="section-subheader">Sobre nós</p>
+        <h2 class="section-header">As melhores férias começam aqui!</h2>
+        <p class="section-description">
+          Com foco em acomodações de qualidade e experiência personalizada de reserva perfeita, nossa plataforma se dedica a garantir que os viajantes embarquem nas férias dos seus sonhos com confiança e entusiasmo.
+        </p>
+  
+        <div class="about-btn">
+          <button class="btn">Leia mais</button>
         </div>
       </div>
-      <div class="input-group">
-        <span><i class="ri-calendar-todo-fill"></i></span>
-        <div>
-          <label for="check-ou">CHECK-OUT</label>
-          <input type="text" placeholder="Check-Out">
+    </section>
+
+    <section class="section-container room-container">
+      <p class="section-subheader">Nossos quartos</p>
+      <h2 class="section-header">O tempo de descanso mais memorável começa aqui.</h2>
+      <div class="room-grid">
+        <div class="room-card">
+          <div class="room-card-img">
+            <img src="./assets/imgs/room-1.jpg" alt="quarto 1">
+            <div class="room-card-icons">
+              <span><i class="ri-heart-3-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room-card-details">
+            <h4>Deluxe com vista para o mar</h4>
+            <p>Aproveite o luxo com vistas deslumbrantes do oceano a partir da sua suíte.</p>
+            <h5>A partir de <span>R$500 por noite</span></h5>
+            <button class="btn">Reserve agora</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <div class="room-card-img">
+            <img src="./assets/imgs/room-2.jpg" alt="quarto 2">
+            <div class="room-card-icons">
+              <span><i class="ri-heart-3-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room-card-details">
+            <h4>Quarto executivo com paisagem urbana</h4>
+            <p>Experimente a elegância urbana e o conforto moderno no coração da cidade.</p>
+            <h5>A partir de <span>R$257 por noite</span></h5>
+            <button class="btn">Reserve agora</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <div class="room-card-img">
+            <img src="./assets/imgs/room-3.jpg" alt="quarto 3">
+            <div class="room-card-icons">
+              <span><i class="ri-heart-3-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room-card-details">
+            <h4>Retiro no jardim familiar</h4>
+            <p>Espaçoso e convidativo, perfeito para criar memórias queridas com pessoas queridas.</p>
+            <h5>A partir de <span>R$732 por noite</span></h5>
+            <button class="btn">Reserve agora</button>
+          </div>
         </div>
       </div>
-      <div class="input-group">
-        <span><i class="ri-user-3-line"></i></span>
-        <div>
-          <label for="guest">Hóspede</label>
-          <input type="text" placeholder="Hóspede">
-        </div>
-      </div>
-      <div class="input-group input-btn">
-        <button class="btn">Confira</button>
-      </div>
-    </form>
-  </section>
+    </section>
+  </main>
 
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="./assets/js/app.js"></script>
